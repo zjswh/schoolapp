@@ -1,0 +1,24 @@
+.mytable{
+    table-layout:fixed;/* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */
+}
+.mytable td{
+
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一 起使用。*/
+    font-size: 14px;
+}
+.page{
+	width: 45%;
+	float: right;
+}
+.page input{
+	width: 20%;
+	float: left;
+	margin-right: 0.3em;
+}
+.page ul{
+	width: 75%;
+	float: right;
+}

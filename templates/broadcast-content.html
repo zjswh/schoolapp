@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>直播课程</title>
+	  <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/broadcast.css">
+
+</head>
+<body>
+<div class="inquiry">
+<form role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="请输入ID">
+        <button type="submit" class="btn btn-default">查询</button>
+      </div>    
+</form>
+<a href="stu-form.html"><button type="submit" class="btn btn-default">添加</a></button>
+</div>
+<table class="table table-bordered table-hover table-condensed">
+   <thead>
+     <tr>
+     <th>选择</th>
+     <th>ID</th>
+     <th>直播课程</th>
+     <th>直播日期</th>
+     <th>开始时间</th>
+   <th>操作</th>
+     </tr>
+     </thead>
+
+     <tbody>
+       <tr class="active">
+       <td> <input type="checkbox" value=""> </td>
+       <td>002</td>
+       <td><a href="readme.html">wex5的使用</a></td>
+       <td>2017-05-10</td>
+       <td>20：00：00</td>
+       <td>
+       
+       <input  type="button" class="btn btn-default" onClick="rec()" value="删除" >
+       </td>
+       </tr>
+       <tr class="active">
+       <td> <input type="checkbox" value=""> </td>
+       <td>003</td>
+       <td><a href="readme.html">H5基础学习</a></td>
+       <td>2017-05-10</td>
+       <td>18：00：00</td>
+       <td>    
+       <input  type="button" class="btn btn-default" onClick="rec()" value="删除" >
+       </td> 
+      </tr> 
+     </tbody>
+     </table>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Projekktor - simply mighty video</title>
+    <style type="text/css">
+    body { background-color: #fdfdfd; padding: 0 20px; color:#000; font: 13px/18px monospace;}
+    a { color: #360; }
+    h3 { padding-top: 20px; }
+    </style>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <!-- Load player theme -->
+    <link rel="stylesheet" href="../themes/maccaco/projekktor.style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/broadcast.css">
+
+    <!-- Load jquery -->
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- load projekktor -->
+    <script type="text/javascript" src="../js/projekktor-1.3.09.min.js"></script>
+
+</head>
+<body>
+<div class="head">
+    <div id="logo">
+        <img src="../img/h5.png" width="100px" height="110px">
+    </div>
+    <div id="title">
+        <p>H5基础学习</p>
+
+    </div>
+    <div id="txt">
+    <p>HTML5 将成为 HTML、XHTML 以及 HTML DOM 的新标准。HTML 的上一个版本诞生于 1999年。自从那以后，Web世界已经经历了巨变。HTML5 仍处于完善之中。然而，大部分现代浏览器已经具备了某些 HTML5 支持。
+    </p>
+    </div>
+    <div id="right">
+        <div class="num">
+        <span class="glyphicon glyphicon-eye-open">9210</span>
+        <img src="../img/live.png">
+        </div> 
+    </div>
+   
+</div>
+<div id="player_a" class="projekktor" style="margin:0px auto; border:1px solid #FF0000"></div>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        projekktor('#player_a', {
+        poster: '../media/intro.png',
+        title: 'this is projekktor',
+        playerFlashMP4: 'swf/StrobeMediaPlayback/StrobeMediaPlayback.swf',
+        playerFlashMP3: 'swf/StrobeMediaPlayback/StrobeMediaPlayback.swf',
+        width: 1000,
+        height: 450,
+        playlist: [
+            {
+            0: {src: "../media/intro.ogv", type: "video/ogg"},
+            1: {src: "../media/intro.mp4", type: "video/mp4"},
+            2: {src: "../media/intro.webm", type: "video/webm"}
+            }
+        ]    
+        }, function(player) {} // on ready 
+        );
+    });
+    </script>
+
+    <h3 style="color: red;">&nbsp;</h3>
+
+</body>
+</html>

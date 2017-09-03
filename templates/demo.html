@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Amaze UI Admin index Examples</title>
+<meta name="description" content="这是一个 index 页面">
+<meta name="keywords" content="index">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="icon" type="image/png" href="../css/i/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="../css/i/app-icon72x72@2x.png">
+<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/amazeui.min.css"/>
+
+<link rel="stylesheet" href="../css/demo.css">
+<script src="../js/jquery.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/sidebar.js"></script>
+</head>
+
+<body>
+
+
+
+<div class="nav-navicon admin-main admin-sidebar">
+    
+    
+    <div class="sideMenu am-icon-dashboard" style="color:#aeb2b7; margin: 10px 0 0 0;"> 欢迎系统管理员：admin</div>
+    <div class="sideMenu">
+      <h3 class=" glyphicon glyphicon-user"><em></em> 用户管理</h3>
+      <ul>
+        <li><a href="../admin/user.php?action=show" target="main">用户信息</a></li>
+      <!--   <li class="func" dataType='html' dataLink='msn.htm' iconImg='images/msn.gif'>添加新商品</li>
+        <li>商品分类</li>
+        <li>用户评论</li>
+        <li>商品回收站</li>
+        <li>库存管理 </li> -->
+      </ul>
+      <h3 class=" glyphicon glyphicon-book"><em></em> 线下培训</h3>
+      <ul>
+        <li><a href="../admin/offlineCourse.php?action=show" target="main">课程查看</a></li>
+        <li><a href="../admin/offCourse.php?action=add" target="main">新增课程</a></li>
+      </ul>
+      <h3 class="glyphicon glyphicon-phone"><em></em> 线上课程</h3>
+      <ul>
+        <li><a href="../admin/onlineCourse.php?action=show" target="main">课程查看</a></li>
+        <li><a href="../admin/onlineCourse.php?action=show" target="main">新增课程</a></li>
+      </ul>
+      <h3 class=" glyphicon glyphicon-facetime-video"><em></em> 视频管理</h3>
+      <ul>
+        <li><a href="../admin/video.php?action=show" target="main">视频查看</a></li>
+        <li><a href="../admin/uploadfile.php?action=add" target="main">添加课程视频</a></li>
+        <li><a href="videoStatic.html" target="main">视频统计</a></li>
+      </ul>
+      <h3 class=" glyphicon glyphicon-edit"><em></em> 直播管理</h3>
+      <ul>
+        <li><a href="readme.html" target="main">直播列表</a></li>
+        <li><a href="../admin/bbs.php?action=show" target="main">新增直播</a></li>
+      </ul>
+      <h3 class=" glyphicon glyphicon-list"><em></em> 动态资讯</h3>
+      <ul>
+        <li><a href="../admin/newlist.php?action=show" target="main">资讯查看</a></li>
+        <li><a href="../admin/newlist.php?action=show" target="main">添加资讯</a></li>
+      </ul>
+      <h3 class=" glyphicon glyphicon-briefcase"><em></em> 预约管理</h3>
+      <ul>
+        <li><a href="../admin/orderCourse.php?action=show" target="main">预约查看</a></li>
+      </ul>
+      <h3 class=" glyphicon glyphicon-edit"><em></em> 论坛管理</h3>
+      <ul>
+        <li><a href="../admin/bbs.php?action=show" target="main">论坛查看</a></li>
+      </ul>
+      <h3 class=" glyphicon glyphicon-envelope"><em></em> 意见反馈</h3>
+      <ul>
+        <li><a href="../admin/advice.php?action=show" target="main">意见查看</a></li>
+      </ul>
+    </div>
+    <!-- sideMenu End --> 
+    
+    <script type="text/javascript">
+			jQuery(".sideMenu").slide({
+				titCell:"h3", //鼠标触发对象
+				targetCell:"ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
+				effect:"slideDown", //targetCell下拉效果
+				delayTime:300 , //效果时间
+				triggerTime:150, //鼠标延迟触发时间（默认150）
+				defaultPlay:true,//默认是否执行效果（默认true）
+				returnDefault:true //鼠标从.sideMen移走后返回默认状态（默认false）
+				});
+		</script> 
+</div>
+
+<script src="../js/amazeui.min.js"></script>
+
+
+
+</body>
+</html>

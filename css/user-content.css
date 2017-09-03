@@ -1,0 +1,43 @@
+#user-content{
+	width: 100%;
+	height: 100%;
+	float: none;
+	padding:20px 0;
+	background: #f1f2f7;
+}
+#user-content > div{
+	width: 98%;
+	height: 100%;
+	margin:0 auto;
+}
+
+#user-content form{
+	width: 89%;
+	float: left;
+}
+#user-content form input{
+	width: 30%;
+	float: left;
+	margin-right: 1em;
+}
+
+#user-content thead tr th{
+	text-align: center;
+}
+
+#user-content table tbody td{
+	text-align: center;
+}
+.page{
+	width: 45%;
+	float: right;
+}
+.page input{
+	width: 20%;
+	float: left;
+	margin-right: 0.3em;
+}
+.page ul{
+	width: 75%;
+	float: right;
+}

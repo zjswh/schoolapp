@@ -1,0 +1,49 @@
+.online-course{
+	width: 100%;
+	height: 100%;
+	float: none;
+	margin-top:35px;
+	padding:20px 0;
+	background: #f1f2f7;
+}
+.online-course > div{
+	width: 98%;
+	height: 100%;
+	margin:0 auto;
+}
+.online-course .course-style{
+	width: 89%;
+	float: left;
+}
+
+.online-course thead tr th{
+	text-align: center;
+}
+.online-course table tbody td{
+	text-align: center;
+	font-size: 14px;
+}
+.course-style label{
+	width: 10%;
+	float: left;
+	margin-bottom: 0.5em;
+}
+.course-style select{
+	width: 20%;
+	float: left;
+	margin-right: 3em;
+	margin-bottom: 0.5em;
+}
+.page{
+	width: 40%;
+	float: right;
+}
+.page input{
+	width: 20%;
+	float: left;
+	margin-right: 0.3em;
+}
+.page ul{
+	width: 75%;
+	float: right;
+}

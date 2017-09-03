@@ -1,0 +1,64 @@
+.appointment{
+	width: 100%;
+	background: #f1f2f7;
+}
+.appointment > div{
+	width: 98%;
+	background: #fff;
+	margin: 0 auto;
+}
+.appointment form{
+	width: 90%;
+	float: left;
+}
+.appointment form input{
+	width: 30%;
+	float: left;
+	margin-right: 0.6em;
+}
+.appointment thead tr th{
+	text-align: center;
+}
+
+.appointment table tbody td{
+	text-align: center;
+	font-size: 14px;
+}
+.appointment .outline-user{
+	width: 100%;
+	float: none;
+}
+.appointment .outline-user form{
+	width: 93%;
+	height: 5%;
+	float: left;
+}
+.appointment .outline-user form input{
+	width: 33%;
+	float: left;
+	margin-right: 1em;
+}
+.work form{
+	width: 93%;
+	height: 5%;
+	float: left;
+}
+.work form input{
+	width: 33%;
+	float: left;
+	margin-right: 1em;
+}
+
+.page{
+	width: 45%;
+	float: right;
+}
+.page input{
+	width: 20%;
+	float: left;
+	margin-right: 0.3em;
+}
+.page ul{
+	width: 75%;
+	float: right;
+}

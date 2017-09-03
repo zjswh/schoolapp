@@ -1,0 +1,321 @@
+#head{
+	width: 100%;
+	height: 60px;
+	margin: 0px;
+	position: absolute;
+	background-color: black;
+	color: white;
+
+}
+#head h2{
+	margin-left: 2.3em;
+	margin-top: 0.6em; 
+	float: left;
+}
+#head form{
+	float: left;
+	margin-left: 8em;
+}
+#head p{
+	float: right;
+	margin-right: 4em;
+	font-size: 20px;
+	margin-top: 1.2em;
+}
+#head span{
+	margin-right: 0.5em;
+}
+#left-nav{
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin-top: 4.4em;
+	
+
+}
+
+#left-nav ul li p{
+	font-size: 20px;
+	text-align: center;
+}
+#user-content{
+	width: 100%;
+	height: 100%;
+	float: none;
+}
+
+#user-content form{
+	width: 89%;
+	float: left;
+}
+#user-content form input{
+	width: 30%;
+	float: left;
+	margin-right: 1em;
+}
+
+#user-content thead tr th{
+	text-align: center;
+}
+
+#user-content table tbody td{
+	text-align: center;
+}
+.outline-user{
+	width: 100%;
+	float: none;
+}
+.outline-user form{
+	width: 82%;
+	height: 5%;
+	float: left;
+}
+.outline-user form input{
+	width: 33%;
+	float: left;
+	margin-right: 1em;
+}
+#course-content #manage form{
+	width: 88%;
+	height: 5%;
+	float: left;
+}
+#course-content #manage form input{
+	width: 30%;
+	float: left;
+	margin-right: 1em;
+}
+#course-content #manage thead tr th{
+	text-align: center;
+}
+
+#course-content #manage table tbody td{
+	text-align: center;
+}
+.pager{
+	margin-top: 10px;
+	float: right;
+}
+.about-course{
+	width: 100%;
+}
+.about-course .course-style {
+	width: 60%;
+}
+.course-style label{
+	width: 10%;
+	float: left;
+	margin-bottom: 0.5em;
+}
+.course-style select{
+	width: 20%;
+	float: left;
+	margin-right: 3em;
+	margin-bottom: 0.5em;
+}
+.about-course .comment{
+	width: 55%;
+	float: left;
+}
+.about-course .comment ul{
+	width: 100%;
+	height: 500px;
+	list-style: none;
+	
+	padding: 0px;
+
+}
+.about-course .comment li{
+	width: 100%;
+	height: 30%;
+	display: block;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #999;
+}
+
+.about-course .comment img{
+	width: 6%;
+	margin-top: 0.9em;
+	margin-left: 0.6em;
+	float: left;
+}
+.about-course .comment .com-name{
+	width:90%;
+	font-family: '微软雅黑';
+	font-weight: bold; 
+	float: left;
+	margin-left: 0.8em;
+	margin-top: 0.8em;
+}
+.about-course .comment .con-comment{
+	width:90%;
+	float: left;
+	 margin-left: 0.9em;
+}
+.time p{
+	width: 70%;
+	color: #999;
+	float: left;
+	margin-left: 5em;
+}
+.time span{
+	width: 10%;
+	color: #999;
+	float: right;
+
+}
+
+.about-course .tip{
+	width: 40%;
+	float: left;
+	margin-left: 1em;
+}
+.about-course .tip input{
+	margin-bottom: 0.5em;
+}
+
+
+
+.appointment{
+	width: 100%;
+}
+.appointment form{
+	width: 70%;
+	float: left;
+}
+.appointment form input{
+	width: 30%;
+	float: left;
+	margin-right: 0.6em;
+}
+.appointment thead tr th{
+	text-align: center;
+}
+
+.appointment table tbody td{
+	text-align: center;
+}
+.appointment .outline-user{
+	width: 100%;
+	float: none;
+}
+.appointment .outline-user form{
+	width: 93%;
+	height: 5%;
+	float: left;
+}
+.appointment .outline-user form input{
+	width: 33%;
+	float: left;
+	margin-right: 1em;
+}
+
+
+.forum-list thead tr th{
+	text-align: center;
+}
+
+.forum-list table tbody td{
+	text-align: center;
+}
+.forum-two{
+	width: 60%;
+}
+.forum-two .concrete-forum{
+	width: 100%;
+	height: 20%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc ;
+}
+.forum-two .concrete-forum p{
+	
+	font-size: 20px;
+
+}
+.forum-two .comment ul{
+	width: 100%;
+	height: 80%;
+	list-style: none;
+	margin: 0 auto;	
+	padding: 0px;
+}
+.forum-two .comment ul li{
+	width: 100%;
+	height: 70px;
+	display: inline;
+	float: left;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #ccc ;
+	margin-top: 0.8em;
+	list-style: none;
+}
+.forum-two .comment ul  li img{
+	float: left;
+	margin-right: 2em;
+}
+.forum-two .comment ul li p{
+	float: left;
+
+}
+
+.online-course .course-style{
+	width: 89%;
+	float: left;
+}
+
+.online-course thead tr th{
+	text-align: center;
+}
+.online-course table tbody td{
+	text-align: center;
+}
+
+#video-course{
+	width: 80%;
+	margin:auto;
+}
+
+#introduction{
+	width: 95%;
+	
+	font-family: '微软雅黑';
+	color: #333;
+	font-size: 16px;
+	line-height: 27px;
+	text-decoration: none;
+}
+#video-course h3{
+	margin-top: 2em;
+	font-family: '微软雅黑';
+
+}
+.video{
+	width: 65%;
+	border-top-style:solid;
+	border-width: 1px;
+	border-color: #999;
+	margin-left: 0px;
+}
+.video ul{
+	width: 100%;
+	margin:0 auto;
+	padding: 0px;
+	list-style: none;
+}
+.video ul p{
+	
+	font-size: 20px;
+	margin-top: 0.6em;
+	font-family: '微软雅黑';
+	margin-left: 0;
+
+}
+.video ul li{
+	background-color: #eee;
+	margin-bottom: 0.3em;
+}
+
+
